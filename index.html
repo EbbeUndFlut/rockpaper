@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rock - Paper - Scissors</title>
+        <link rel="stylesheet" href="./assets/css/main.css" />
+    </head>
+    <body>
+        <nav>
+            <div class="btnGroup">
+                <button value="Rock"><img src="./assets/img/stone2.png" alt="" /></button><button value="Paper"><img src="./assets/img/paper.png" alt="" /></button
+                ><button value="Scissor"><img src="./assets/img/scissors.png" alt="" /></button>
+            </div>
+            <button class="menu" onclick="los()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </nav>
+        <main>
+            <div class="modal">
+                <button id="newgame">new game</button>
+                <button id="close">back</button>
+            </div>
+            <div class="score">
+                <p>0</p>
+                <p>0</p>
+            </div>
+            <section id="range"></section>
+        </main>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

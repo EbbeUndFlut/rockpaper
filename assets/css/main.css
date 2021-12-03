@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "pre";
+    src: url("../fonts/teutonic2.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #c3c637 url("../img/back2.jpg") no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.btnGroup button {
+    background: none;
+    outline: none;
+    border: none;
+    margin: 5px;
+}
+
+.btnGroup img {
+    width: 150px;
+}
+.modal {
+    display: none;
+}
+
+.menu {
+    background: none;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.menu:hover {
+    background: rgba(214, 214, 214, 0.726);
+}
+.menu > div {
+    background: #000;
+    height: 3px;
+    width: 50%;
+    margin: 6px auto;
+}
+
+.score {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 5vh 2vw;
+    font-size: 10vw;
+    font-family: pre;
+    color: rgb(59, 27, 27);
+}
+
+.bullet {
+    position: absolute;
+    width: 300px;
+}
